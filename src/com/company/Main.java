@@ -10,5 +10,10 @@ public class Main {
         myPhone.callPhone(123456);
         myPhone.answer();
 
+        myPhone = new MobilePhone(24567);
+        myPhone.powerOn();
+        myPhone.callPhone(24567);
+        myPhone.answer();
+
     }
 }
